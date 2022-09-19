@@ -1,0 +1,1 @@
+{"uuid":"9a768c89-ca2b-4a2c-b300-652e99e43522","name":"TM_JULY_SELENIUM","children":["d126f747-2823-476f-bc3e-c9d98a0f02a8"],"befores":[{"name":"beforeSuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1662963715503,"stop":1662963734221}],"afters":[],"start":1662963715458,"stop":1662963750056}

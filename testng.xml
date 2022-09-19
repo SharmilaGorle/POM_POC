@@ -1,0 +1,8 @@
+<suite name="TM_JULY_SELENIUM" verbose="10">
+
+    <test name="smoketest" preserve-order="true">
+        <classes>
+            <class name="com.testcases.TC_01"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TM_JULY_SELENIUM" duration-ms="20822" started-at="2022-09-15T11:42:54 IST" finished-at="2022-09-15T11:43:15 IST">
+    <groups>
+    </groups>
+    <test name="smoketest" duration-ms="20822" started-at="2022-09-15T11:42:54 IST" finished-at="2022-09-15T11:43:15 IST">
+      <class name="com.testcases.TC_01">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testcases.TC_01@517bd097]" name="beforeSuite" is-config="true" duration-ms="20807" started-at="2022-09-15T11:42:33 IST" finished-at="2022-09-15T11:42:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="userLogin()[pri:1, instance:com.testcases.TC_01@517bd097]" name="userLogin" duration-ms="4377" started-at="2022-09-15T11:42:54 IST" finished-at="2022-09-15T11:42:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testcases.TC_01@517bd097]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-15T11:42:59 IST" finished-at="2022-09-15T11:42:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="validateUserCredentials(java.lang.String, java.lang.String)[pri:2, instance:com.testcases.TC_01@517bd097]" name="validateUserCredentials" duration-ms="8199" started-at="2022-09-15T11:42:59 IST" data-provider="invalid" depends-on-methods="com.testcases.TC_01.userLogin" finished-at="2022-09-15T11:43:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testcases.TC_01@517bd097]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-15T11:43:07 IST" finished-at="2022-09-15T11:43:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="validateUserCredentials(java.lang.String, java.lang.String)[pri:2, instance:com.testcases.TC_01@517bd097]" name="validateUserCredentials" duration-ms="4141" started-at="2022-09-15T11:43:07 IST" data-provider="invalid" depends-on-methods="com.testcases.TC_01.userLogin" finished-at="2022-09-15T11:43:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testcases.TC_01@517bd097]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-15T11:43:11 IST" finished-at="2022-09-15T11:43:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="validateUserCredentials(java.lang.String, java.lang.String)[pri:2, instance:com.testcases.TC_01@517bd097]" name="validateUserCredentials" duration-ms="3076" started-at="2022-09-15T11:43:11 IST" data-provider="invalid" depends-on-methods="com.testcases.TC_01.userLogin" finished-at="2022-09-15T11:43:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ghi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testcases.TC_01@517bd097]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-15T11:43:14 IST" finished-at="2022-09-15T11:43:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="validateEmailId(java.lang.String)[pri:3, instance:com.testcases.TC_01@517bd097]" name="validateEmailId" duration-ms="550" started-at="2022-09-15T11:43:14 IST" data-provider="New Email Id" finished-at="2022-09-15T11:43:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anand123456@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmailId -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testcases.TC_01@517bd097]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-15T11:43:15 IST" finished-at="2022-09-15T11:43:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.testcases.TC_01 -->
+    </test> <!-- smoketest -->
+  </suite> <!-- TM_JULY_SELENIUM -->
+</testng-results>

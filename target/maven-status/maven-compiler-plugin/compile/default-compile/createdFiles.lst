@@ -1,0 +1,9 @@
+com\annotations\TestAnnotations.class
+com\applicationBehaviour\HomePage.class
+com\applicationBehaviour\Authentication.class
+com\testcases\TC_01.class
+com\applicationor\Authentication_OR.class
+com\applicationor\Homepage_OR.class
+com\GenericMethods\WebLib.class
+com\testdataprovider\LoginDataProvider.class
+com\testdataprovider\NewAccountDataProvider.class
